@@ -10,6 +10,8 @@ SELECT name
 FROM customer
 WHERE COALESCE(referee_id,0) != 2;
 
+//Return the first non-null value in a list:
+  COALESCE(val1, val2, ...., val_n)
 
 
 -- Solution 3: Basics
